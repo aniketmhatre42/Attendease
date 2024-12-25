@@ -1,0 +1,6 @@
+[
+    { "name": "John Doe", "timestamp": "2024-12-01 09:00:00", "status": "present", "role": "student" },
+    { "name": "Jane Smith", "timestamp": "2024-12-01 09:00:00", "status": "absent", "role": "student" },
+    { "name": "John Doe", "timestamp": "2024-12-02 09:00:00", "status": "present", "role": "student" },
+    { "name": "Jane Smith", "timestamp": "2024-12-02 09:00:00", "status": "leave", "role": "student" }
+]

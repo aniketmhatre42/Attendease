@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Attendance Management System</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Attendance Management System</h1>
+        <form id="attendanceForm">
+            <input type="text" id="studentName" placeholder="Enter student name" required>
+            <button type="submit">Mark Attendance</button>
+        </form>
+        <div class="controls">
+            <input type="text" id="searchBar" placeholder="Search student name">
+            <button id="sortButton">Sort Alphabetically</button>
+        </div>
+        <h2>Attendance List</h2>
+        <ul id="attendanceList"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

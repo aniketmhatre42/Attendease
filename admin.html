@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard - Attendance Management System</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <div class="container">
+        <button id="logoutButton" class="logout">Logout</button>
+        <h1>Admin Dashboard</h1>
+        <div id="addStudent">
+            <h2>Add Student</h2>
+            <form id="studentForm">
+                <input type="text" id="studentName" placeholder="Student Name" required>
+                <button type="submit">Add Student</button>
+            </form>
+        </div>
+        <div id="markAttendance">
+            <h2>Mark Attendance</h2>
+            <form id="attendanceForm">
+                <div id="studentList"></div>
+                <button type="submit">Mark Attendance</button>
+            </form>
+        </div>
+        <div id="exportOptions">
+            <h2>Export Data</h2>
+            <button id="exportCSVButton" onclick="exportCSV()">Export as CSV</button>
+        </div>
+    </div>
+    <script src="scripts/admin.js"></script>
+</body>
+</html>

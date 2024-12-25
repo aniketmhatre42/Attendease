@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Dashboard - Attendance Management System</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <button id="logoutButton" class="logout">Logout</button>
+        <h1>Student Dashboard</h1>
+        <div id="personalAttendance">
+            <h2>Attendance Records</h2>
+            <div id="attendanceRecords"></div>
+        </div>
+        <div id="attendanceChartContainer">
+            <h2>Attendance Overview</h2>
+            <canvas id="attendanceChart"></canvas>
+        </div>
+    </div>
+    <script src="scripts/student.js"></script>
+</body>
+</html>
