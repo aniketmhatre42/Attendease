@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     let attendanceData = JSON.parse(localStorage.getItem('attendanceData')) || [];
 
-    // Add student
+    
     studentForm.addEventListener('submit', (e) => {
         e.preventDefault();
         const studentName = document.getElementById('studentName').value.trim();
@@ -16,13 +16,13 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    // Mark attendance
+    
     attendanceForm.addEventListener('submit', (e) => {
         e.preventDefault();
         markAttendance();
     });
 
-    // Logout button
+    
     logoutButton.addEventListener('click', () => {
         localStorage.removeItem('role');
         localStorage.removeItem('username');
@@ -99,4 +99,5 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     renderStudentList();
+
 });
